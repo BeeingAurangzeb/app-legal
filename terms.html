@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Use</title>
+<style>
+ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px;line-height:1.55;color:#1c1b1f}
+ h1{font-size:1.6rem} h2{font-size:1.1rem;margin-top:1.6rem} a{color:#5b3fd9}
+ @media (prefers-color-scheme: dark){body{background:#121212;color:#e6e1e5} a{color:#bfb0ff}}
+</style></head><body>
+<h1>Terms of Use</h1>
+<h2>Using {{APP}}</h2>
+<p>By using the app you agree to these terms. You must be at least 18 years old, use your own mobile number, and give truthful information. One account per mobile number.</p>
+<h2>Be respectful and consent-based</h2>
+<p>The app exists so people can connect only when both sides are comfortable. You must not:</p>
+<ul><li>contact anyone who ignored or blocked you, or keep trying to reach them;</li><li>harass, threaten, stalk or pressure anyone, or send sexual or offensive content;</li><li>pretend to be someone else or give a false age or gender;</li><li>collect other people's information, scrape the app, or interfere with its Bluetooth signals or servers;</li><li>use the app for anything illegal.</li></ul>
+<h2>Reporting and blocking</h2>
+<p>You can block or report any person from the app. We may review reports and suspend or remove accounts that break these terms.</p>
+<h2>Your safety</h2>
+<p>We verify only that a mobile number belongs to a person. Gender and age are stated by users and are not checked against an ID. Be careful when you meet people, choose public places, and tell someone you trust.</p>
+<h2>Paid features</h2>
+<p>If paid features are offered, they are billed through Google Play and are subject to Google Play's payment and refund rules.</p>
+<h2>Our responsibility</h2>
+<p>The app is provided as it is. To the extent the law allows, we are not responsible for what users do or for losses that result from using the app. Nothing in these terms limits rights you have under law that cannot be limited.</p>
+<h2>Ending your use</h2>
+<p>You can delete your account at any time from the Me tab. We may suspend or end accounts that break these terms.</p>
+<h2>Governing law</h2>
+<p>These terms are governed by the laws of India. Courts in {{CITY}} will have jurisdiction, subject to any rights you have under consumer law. Contact: {{EMAIL}}.</p>
+<p><a href="index.html">&larr; All pages</a></p>
+<script src="config.js"></script>
+<script>
+ (function(){var L=window.LEGAL||{};var h=document.body.innerHTML;
+  h=h.split('{{OWNER}}').join(L.owner||'[YOUR NAME OR COMPANY]')
+     .split('{{EMAIL}}').join(L.email||'[CONTACT EMAIL]')
+     .split('{{CITY}}').join(L.city||'[CITY]')
+     .split('{{APP}}').join(L.app||'Nearby Connect');
+  document.body.innerHTML=h;})();
+</script>
+</body></html>

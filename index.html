@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nearby Connect</title>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px;line-height:1.7}a{color:#5b3fd9}</style></head>
+<body><h1>{{APP}}</h1>
+<ul>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="terms.html">Terms of Use</a></li>
+<li><a href="delete-account.html">Delete your account</a></li>
+</ul><script src="config.js"></script>
+<script>
+ (function(){var L=window.LEGAL||{};var h=document.body.innerHTML;
+  h=h.split('{{APP}}').join(L.app||'Nearby Connect');
+  document.body.innerHTML=h;})();
+</script></body></html>

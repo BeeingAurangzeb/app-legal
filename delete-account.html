@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your account</title>
+<style>
+ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px;line-height:1.55;color:#1c1b1f}
+ h1{font-size:1.6rem} h2{font-size:1.1rem;margin-top:1.6rem} a{color:#5b3fd9}
+ @media (prefers-color-scheme: dark){body{background:#121212;color:#e6e1e5} a{color:#bfb0ff}}
+</style></head><body>
+<h1>Delete your account</h1>
+<h2>Delete your account and data</h2>
+<p>You can delete your {{APP}} account yourself at any time.</p>
+<ul><li>Open the app and go to the Me tab.</li><li>Tap Delete my account and confirm.</li><li>Enter the SMS code sent to your mobile number to prove it is you.</li></ul>
+<p>This permanently removes your profile, your connections and the contact details you exchanged. It cannot be undone.</p>
+<h2>If you cannot open the app</h2>
+<p>Email {{EMAIL}} from any address and include the mobile number registered to your account. We may ask you to confirm that you own the number. We will delete your data within 30 days.</p>
+<h2>What may be kept</h2>
+<p>Reports about misuse may be kept for safety purposes, and deleted data can remain in backups for a short period.</p>
+<p><a href="index.html">&larr; All pages</a></p>
+<script src="config.js"></script>
+<script>
+ (function(){var L=window.LEGAL||{};var h=document.body.innerHTML;
+  h=h.split('{{OWNER}}').join(L.owner||'[YOUR NAME OR COMPANY]')
+     .split('{{EMAIL}}').join(L.email||'[CONTACT EMAIL]')
+     .split('{{CITY}}').join(L.city||'[CITY]')
+     .split('{{APP}}').join(L.app||'Nearby Connect');
+  document.body.innerHTML=h;})();
+</script>
+</body></html>

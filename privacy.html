@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<style>
+ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px;line-height:1.55;color:#1c1b1f}
+ h1{font-size:1.6rem} h2{font-size:1.1rem;margin-top:1.6rem} a{color:#5b3fd9}
+ @media (prefers-color-scheme: dark){body{background:#121212;color:#e6e1e5} a{color:#bfb0ff}}
+</style></head><body>
+<h1>Privacy Policy</h1>
+<h2>Who we are</h2>
+<p>{{OWNER}} ("we") runs the {{APP}} app ("the app"). You can reach us at {{EMAIL}}.</p>
+<p>This is a draft policy that should be reviewed by a lawyer before launch. Last updated: 4 November 2026.</p>
+<h2>What we collect</h2>
+<ul><li>Your mobile number, verified by an SMS code. We use it to create and protect your account.</li><li>Your nickname, gender and date of birth. Your date of birth is used only to confirm that you are 18 or older and is never shown to anyone. Your nickname and gender are visible to other app users who are physically near you while you are Visible.</li><li>Optional contact details you add to your card (for example Instagram or Snapchat) and your mobile number. These are shared only with a person you choose, and only after they accept your hi.</li><li>Bluetooth proximity: while you are Visible, your phone broadcasts a random code that changes every few minutes and listens for the codes of other phones. We do not collect your GPS location. On Android 11 and older, Android requires the Location permission for Bluetooth scanning; the app uses it only for that purpose.</li><li>Your activity in the app: hi requests, connections, people you ignore or block, and reports you make.</li><li>Technical information created by our service providers, such as app and device checks used for security and SMS delivery.</li></ul>
+<h2>How we use your information</h2>
+<ul><li>To run the app: show you people nearby, deliver hi requests and exchange contact details.</li><li>To keep people safe: apply gender filters, handle blocks and reports, and prevent misuse.</li><li>To meet legal obligations.</li></ul>
+<p>We do not sell your personal data and we do not show advertising.</p>
+<h2>Who can see what</h2>
+<ul><li>People near you who use the app can see your nickname and gender while you are Visible.</li><li>A person you say hi to sees your nickname. Your contact details are released to them only if they accept, and only the items you ticked.</li><li>Nobody can see your date of birth or the contact details you did not share.</li></ul>
+<h2>Service providers</h2>
+<p>We use Google Firebase for sign-in, SMS verification, security checks and our database. Our database is hosted in Mumbai, India. Sign-in and SMS delivery may be processed by Google in other countries.</p>
+<h2>How long we keep it, and deleting your data</h2>
+<p>We keep your information until you delete your account. In the app, open the Me tab and choose Delete my account. This removes your profile, your connections and the contact details exchanged with them. Short-lived Bluetooth codes expire automatically. We may keep reports about misuse for safety purposes, and deleted data can remain in backups for a short period.</p>
+<p>If you cannot use the app, see the account deletion page or email {{EMAIL}}.</p>
+<h2>Your rights</h2>
+<p>Under India's Digital Personal Data Protection Act, 2023, you can ask to access, correct or erase your personal data, withdraw your consent, and make a complaint. Write to {{EMAIL}} and we will respond within a reasonable time. {{OWNER}} is the contact for privacy complaints.</p>
+<h2>Age</h2>
+<p>The app is only for people aged 18 or older. If we learn that a user is under 18, we will delete the account.</p>
+<h2>Security</h2>
+<p>We protect your data with access rules on our database and encrypted connections. No system is perfectly secure, so please keep your phone locked.</p>
+<h2>Changes</h2>
+<p>If we change this policy in a way that matters, we will tell you in the app before the change applies.</p>
+<p><a href="index.html">&larr; All pages</a></p>
+<script src="config.js"></script>
+<script>
+ (function(){var L=window.LEGAL||{};var h=document.body.innerHTML;
+  h=h.split('{{OWNER}}').join(L.owner||'[YOUR NAME OR COMPANY]')
+     .split('{{EMAIL}}').join(L.email||'[CONTACT EMAIL]')
+     .split('{{CITY}}').join(L.city||'[CITY]')
+     .split('{{APP}}').join(L.app||'Nearby Connect');
+  document.body.innerHTML=h;})();
+</script>
+</body></html>
