@@ -1,7 +1,7 @@
-// Edit these values, save, and the pages update. (Company details are already filled in.)
+// Edit these values, save, and the pages update.
 window.LEGAL = {
-  app: 'Nearby Connect',
+  app: 'Chiththi',
   owner: 'ABIMO GLOBEX PRIVATE LIMITED',
-  email: 'abmglobex@gmail.com',
+  email: 'support@thechiththi.com',
   city: 'Ahmedabad'
 };
